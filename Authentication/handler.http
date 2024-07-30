@@ -1,0 +1,14 @@
+GET http://localhost:5001/users
+
+####
+POST http://localhost:5001/register
+
+Content-Type: "application/json"
+
+{
+  "username": "saiteja",
+  "name": "human_torch",
+  "password": "saiteja553",
+  "gender": "male",
+  "location": "INDIA"
+}
